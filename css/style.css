@@ -1,0 +1,40 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+background-color: aquamarine;
+width: 100%;
+height: 50px;
+}
+.enlaces {
+background-color: lightgray;
+width: 100%;
+height: 30px;
+}
+.cuadros {
+background-color: blueviolet;
+display: flex;
+flex-direction: column;
+}
+.cuadro1 {
+background-color: lightcoral;
+width: 120px;
+height: 50px;
+}
+.cuadro2 {
+background-color: orange;
+width: 120px;
+height: 50px;
+}
+.cuadro3 {
+background-color: lightgreen;
+width: 120px;
+height: 50px;
+}
+.cuadro4 {
+background-color: lightyellow;
+width: 120px;
+height: 50px;
+}
