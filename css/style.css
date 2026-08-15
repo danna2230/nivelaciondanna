@@ -1,40 +1,87 @@
 * {
 margin: 0;
 padding: 0;
-box-sizing: border-box;
 }
-.container {
-background-color: aquamarine;
+body {
+background-color: rgb(232, 241, 240);
+position: relative;
+}
+.header {
+background-color: #2d69a9;
 width: 100%;
 height: 50px;
+position: sticky;
+top: 0;
+color:white;
+text-align: center;
 }
 .enlaces {
-background-color: lightgray;
+background-color: #183c72;
+}
+a{
+color: white;
+text-decoration: none;
+padding: 55px;
+}
+.enlaces li {
+margin-bottom: 20px;
 width: 100%;
+height: 30px;
+
+display: inline;
+}
+h4 {
+background-color: rgb(67, 89, 155);
+margin: 0px;
+width: 480px;
 height: 30px;
 }
 .cuadros {
-background-color: blueviolet;
-display: flex;
-flex-direction: column;
+background-color: rgb(162, 214, 207);          
+bottom: 0px;
+margin: 10px;
+padding: 0px;
+width: 510px;
+height: 270px;
+top: 320px;
+float: left;
+border: 2px solid #cccccc;
+z-index: 1;
 }
 .cuadro1 {
-background-color: lightcoral;
-width: 120px;
-height: 50px;
+background-color: rgb(205, 228, 234);
+margin: 20px;
+width: 480px;
+height: 110px;
+float: left;
+border: 2px solid #cccccc;
+z-index: 1;
 }
 .cuadro2 {
-background-color: orange;
-width: 120px;
-height: 50px;
+background-color: rgb(128, 179, 221);
+margin: 15px;
+width: 480px;
+height: 110px;
 }
 .cuadro3 {
-background-color: lightgreen;
-width: 120px;
-height: 50px;
-}
+background-color: rgb(87, 164, 190);
+margin: 15px;
+width: 480px;
+height: 110px;
+}   
 .cuadro4 {
-background-color: lightyellow;
+background-color: rgb(190, 197, 228);
+margin: 0px;
 width: 120px;
-height: 50px;
+height: 390px;
+padding: 15px;
+float: right;
+z-index: 2;
+position: absolute;
+right: 10px;
+bottom: 30px;
+}
+.footer {
+background-color: rgb(162, 214, 207);
+clear: both;
 }
